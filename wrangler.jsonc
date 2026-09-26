@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "cf-doh",
+  "main": "_worker.js",
+  "compatibility_date": "2026-09-26",
+  "analytics_engine_datasets": [
+    {
+      "binding": "DOH_ANALYTICS",
+      "dataset": "cf_doh_metrics"
+    }
+  ]
+}
